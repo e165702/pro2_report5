@@ -5,9 +5,10 @@ package main;
  */
 public class Main {
     public static void main(String[] args) {
-        String str = null;
+        String str = "3．14";
         try {
             System.out.println(str.length());
+            Double.parseDouble(str);
         } catch (java.lang.NullPointerException er) {
             System.out.println("NullPointerExceptionが発生しました");
             er.printStackTrace();
